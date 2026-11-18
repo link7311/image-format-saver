@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "圖片轉存 JPG / PNG / WEBP",
+  "version": "1.1.0",
+  "description": "對網頁圖片按右鍵，選擇 JPG、PNG 或 WEBP，直接轉換並另存新檔。",
+  "permissions": ["contextMenus", "downloads", "scripting"],
+  "host_permissions": ["https://*/*", "http://*/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "help.html", "default_title": "圖片轉存：對圖片按右鍵開始" }
+}
